@@ -124,6 +124,7 @@ header{
     margin: 100px auto;
     border-radius: 10px;
     background: linear-gradient(to left, transparent, red), url(../images/watch.png);
+    background-repeat: no-repeat;
 }
 .callnow{
     padding: 100px;
