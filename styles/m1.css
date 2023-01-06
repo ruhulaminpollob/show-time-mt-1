@@ -64,4 +64,34 @@ header{
 }
 /* main */
 /* main==>fail section */
+.fail{
+    display: flex;
+    margin:100px;
+    /* justify-content: space-between; */
+}
+.fail .sad-img img{
+    width: 450px;
+
+}
+.fail .fail-reason{
+    width: 400px;
+    margin: 200px auto auto 100px;
+}
+.fail-title{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.fail-description{
+    color: gray;
+    margin-bottom: 20px;
+}
+.fail-reason-list{
+    list-style-image: url(../images/icons/tick.png);
+    color: gray;
+}
+.fail-reason-list li{
+    margin-bottom: 10px;
+}
+
+/* main==> plans section */
 
