@@ -38,6 +38,9 @@ header{
     background-image: url(../images/banner/banner1.png);
     width: 100%;
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .pre-banner{
     margin: 170px 150px auto 65%;
@@ -125,6 +128,8 @@ header{
     border-radius: 10px;
     background: linear-gradient(to left, transparent, red), url(../images/watch.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .callnow{
     padding: 100px;
